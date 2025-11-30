@@ -20,6 +20,7 @@
 - 使用
 
   启动 Cemu 后
+<img width="929" height="425" alt="image" src="https://github.com/user-attachments/assets/95ff275b-ea14-4d6e-b95e-4c308debfd05" />
 
   
 
