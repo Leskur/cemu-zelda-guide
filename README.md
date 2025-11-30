@@ -91,7 +91,7 @@ Windows 路径：`C:\Users\{你的用户名}\AppData\Roaming\Cemu\graphicPacks\`
 
 其他系统自己找一下。
 
-添加后重启 Cemu 可以在图形插件界面找到。
+添加后重启 Cemu 按下面的步骤设置中文。
 
 #### 3.2 切换为中文
 
