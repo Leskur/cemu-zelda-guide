@@ -109,6 +109,12 @@ Windows 路径：`C:\Users\{你的用户名}\AppData\Roaming\Cemu\graphicPacks`
 
 勾选 FPS++，您可以根据电脑性能选择对应的 FPS Limit。
 
+参考链接 [优化《塞尔达传说：旷野之息》#提高帧率](https://cemu.cfw.guide/optimizing-botw.html#increasing-fps)
+
+#### 分辨率优化
+
+参考链接 [优化《塞尔达传说：旷野之息》#图形和增强功能](https://cemu.cfw.guide/optimizing-botw.html#graphics-and-enhancements)
+
 #### CEMU 优化
 
-其他 Cemu 优化可以参考 [Optimizing Cemu](https://cemu.cfw.guide/optimizing-cemu.html)
+参考链接 [优化 Cemu](https://cemu.cfw.guide/optimizing-cemu.html)
