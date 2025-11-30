@@ -16,11 +16,9 @@
 
 #### 1.1 安装
 
- 你可以从 [Cemu Release](https://github.com/cemu-project/Cemu/releases) 下载最新的应用程序包并解压到合适的位置，比如 `D:\Games\Cemu`。
+你可以从 [Cemu Release](https://github.com/cemu-project/Cemu/releases) 下载最新的应用程序包并解压到合适的位置，比如 `D:\Games\Cemu`。
 
- 启动 Cemu 后看会到初始化弹窗，建议先关闭跳过，先切换成中文之后再来配置。
-
-
+启动 Cemu 后看会到初始化弹窗，建议先关闭跳过，先切换成中文之后再来配置。
 
 #### 1.2 设置中文
 
@@ -71,7 +69,7 @@
 
 - 勾选下载界面的底部的 `Decrypt contents` 和 `Decrypt encrypted Contents afert decryption` 选项。
 
-- 仅勾选右下角的 Japan 选项，因为游戏的中文语言包是**基于 Japan 版**本的。
+  仅勾选右下角的 Japan 选项，因为游戏的中文语言包是**基于 Japan 版**本的。
 
 - 在搜索栏输入 Zelda 选择这些项目（看不懂可以用截图翻译）：
 
