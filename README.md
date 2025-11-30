@@ -21,13 +21,42 @@
 
 2. 设置中文
 
-   依次点击左上角的 `Options` - `General settings` 会看到一个 Language 选项，选择中文后重新启动 Cemu 生效。
+   依次点击左上角的 **Options** - **General settings** 会看到一个 Language 选项，选择中文后重新启动 Cemu 生效。
+
+3. 初始化 Cemu
+
+   - 添加游戏路径
+
+     点击 **选项** - **通用设置** 在游戏路径下方点击 **添加** 按钮，选择一个文件夹如 `D:\Games\WiiUGames`，之后我们会把下载的游戏放在这里。
+
+   - 安装图形插件
+
+     依次点击 **选项** - **图形插件** - **下载最新社区图形插件**，下载成功之后关闭弹窗就行。
+
+4. 连接手柄
+
+   首先你需要将你的手柄和电脑连接，如果没有手柄也可以用键盘，这里以手柄举例。
+
+   点击 **选项** - **输入设置** 进行控制器配置，配置如下：
+
+   配置文件：任意配置文件名
+   模拟控制器：Wii U Pro Controller
+
+   控制器：
+
+   ​	API：SDLController
+
+   ​	控制器：Nintendo Switch Pro Controller（下拉框选择时可能会空白 1 秒左右）
+
+   选择之后可以测试和校准一下。
+
+   如果您有设置键盘或者其他问题，请参考网上的教程。
 
    
 
 
 
-<img width="929" height="425" alt="image" src="https://github.com/user-attachments/assets/95ff275b-ea14-4d6e-b95e-4c308debfd05" />
+<img width="929" height="425" alt="image" src="https://github.com/user-attachments/assets/95ff275b-ea14-4d6e-b95e-4c308debfd05" /
 
 
 
