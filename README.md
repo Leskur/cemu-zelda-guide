@@ -39,14 +39,16 @@
 
    点击 **选项** - **输入设置** 进行控制器配置，配置如下：
 
-   配置文件：任意配置文件名
-   模拟控制器：Wii U Pro Controller
-
-   控制器：
-
-   ​	API：SDLController
-
-   ​	控制器：Nintendo Switch Pro Controller（下拉框选择时可能会空白 1 秒左右）
+   ```
+   配置文件: 任意配置文件名
+   
+   模拟控制器: Wii U Pro Controller
+   
+   控制器:
+   	API: SDLController
+   	控制器: Nintendo Switch Pro Controller（下拉框选择时可能会空白 1 秒左右）
+   
+   ```
 
    选择之后可以测试和校准一下。
 
