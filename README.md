@@ -1,4 +1,5 @@
 # 使用 Cemu 游玩《塞尔达传说 旷野之息》
+
 ### 为什么创建这个项目？
 
 - 因为我相信您也想在电脑上玩《塞尔达传说：旷野之息》
@@ -9,17 +10,15 @@
 
 于是我尝试了很多方法，找到了一种比较好的方式分享给大家。
 
-
-
 ### 1. 安装 Cemu - Wii U 模拟器
 
 [Cemu ](https://github.com/cemu-project/Cemu) 是一个 Wii U 模拟器，能够运行大多数 Wii U 游戏。
 
 #### 1.1 安装
 
-​	你可以从 [Cemu Release](https://github.com/cemu-project/Cemu/releases) 下载最新的应用程序包并解压到合适的位置，比如 `D:\Games\Cemu`。
+ 你可以从 [Cemu Release](https://github.com/cemu-project/Cemu/releases) 下载最新的应用程序包并解压到合适的位置，比如 `D:\Games\Cemu`。
 
-​	启动 Cemu 后看会到初始化弹窗，建议先关闭跳过，先切换成中文之后再来配置。
+ 启动 Cemu 后看会到初始化弹窗，建议先关闭跳过，先切换成中文之后再来配置。
 
 #### 1.2 设置中文
 
@@ -56,11 +55,9 @@
 
 如果您有设置键盘或者其他问题，请参考网上的相关教程。
 
-
-
 ### 2. 使用 WiiUDownloader 下载游戏
 
-推荐使用 [WiiUDownloader](https://github.com/Xpl0itU/WiiUDownloader)，它是目前体验最好的 Wii U 游戏下载器。允许您从任天堂服务器下载 Wii U 游戏。
+推荐使用 [WiiUDownloader](https://github.com/Xpl0itU/WiiUDownloader)，它是目前体验最好的 Wii U 游戏下载器，允许您从任天堂服务器下载 Wii U 游戏。
 
 #### 2.1 安装
 
@@ -70,23 +67,17 @@
 
 #### 2.2 下载游戏
 
-勾选下载界面的底部的 `Decrypt contents` 和 `Decrypt encrypted Contents afert decryption` 。
+勾选下载界面的底部的 `Decrypt contents` 和 `Decrypt encrypted Contents afert decryption` 选项。
 
-仅勾选右下角的 Japan 选项，因为游戏的中文语言包是基于 Japan 版本的。
+仅勾选右下角的 Japan 选项，因为游戏的中文语言包是**基于 Japan 版**本的。
 
+在搜索栏输入 Zelda 选择这些项目（看不懂可以用截图翻译）：
 
+​	Game - Title ID 00050000101c9300 **必须**，这是《塞尔达传说 旷野之息》游戏本体。
 
+​	Update - Title ID 0005000e101c9300 **必须**，这是游戏更新，不下载的话进游戏会提醒需要更新。
 
-
-在搜索栏 输入 Zelda 选择这些项目（看不懂可以用截图翻译）：
-
-Game - Title ID  00050000101c9300 **必须**，这是《塞尔达传说 旷野之息》游戏本体
-
-Update - Title ID 0005000e101c9300 **必须**，这是游戏更新，不下载的话进游戏会提醒需要更新
-
-DLC - Title ID0005000c101c9300 可选。
-
-
+​	DLC - Title ID0005000c101c9300 可选，为了节约下载时间可以先不选。
 
 点击 **Download Queue** 选择之前创建的游戏目录，等待下载完成即可。下载完成后打开 Cemu 就可以看到游戏了。
 
@@ -99,8 +90,6 @@ DLC - Title ID0005000c101c9300 可选。
 Windows 路径：`C:\Users\{你的用户名}\AppData\Roaming\Cemu\graphicPacks\`
 
 其他系统自己找一下。
-
-
 
 添加后重启 Cemu 可以在图形插件界面找到。
 
