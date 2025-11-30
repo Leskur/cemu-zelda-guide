@@ -62,13 +62,39 @@
 
 推荐使用 [WiiUDownloader](https://github.com/Xpl0itU/WiiUDownloader)，它是目前体验最好的 Wii U 游戏下载器。允许您从任天堂服务器下载 Wii U 游戏。
 
-- 安装
+#### 2.1 安装
 
-  你可以从 [WiiUDownloader Release](https://github.com/Xpl0itU/WiiUDownloader/releases) 下载最新的应用程序包并解压到合适的位置，比如 `D:\Games\WiiUDownloader\`。
+你可以从 [WiiUDownloader Release](https://github.com/Xpl0itU/WiiUDownloader/releases) 下载最新的应用程序包并解压到合适的位置，比如 `D:\Games\WiiUDownloader\`。
 
-1. 运行
+首次运行 WiiUDownloader 会出现初始化设置弹窗，同样建议你直接点击跳过。
 
-### 3. 添加汉化
+#### 2.2 下载游戏
+
+勾选下载界面的底部的 `Decrypt contents` 和 `Decrypt encrypted Contents afert decryption` 。
+
+仅勾选右下角的 Japan 选项，因为游戏的中文语言包是基于 Japan 版本的。
+
+
+
+在搜索栏 输入 Zelda 选择这些项目（看不懂可以用截图翻译）：
+
+Game - Title ID  00050000101c9300 **必须**，这是《塞尔达传说 旷野之息》游戏本体
+
+Update - Title ID 0005000e101c9300 **必须**，这是游戏更新，不下载的话进游戏会提醒需要更新
+
+DLC - Title ID0005000c101c9300 可选。
+
+
+
+点击 **Download Queue** 选择之前创建的游戏目录，等待下载完成即可。下载完成后打开 Cemu 就可以看到游戏了。
+
+### 3. 添加中文语言包
+
+下载中文语言包，解压后将 **整个文件夹** 放到 Cemu 的图形插件目录，文件夹名称随意。
+
+Windows 路径：`C:\Users\{你的用户名}\AppData\Roaming\Cemu\graphicPacks\`
+
+其他系统自己找一下。
 
 
 
