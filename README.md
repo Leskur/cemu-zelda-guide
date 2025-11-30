@@ -1,120 +1,192 @@
-# 使用 Cemu 游玩《塞尔达传说 旷野之息》
+# 使用 Cemu 游玩《塞尔达传说：旷野之息》
 
-### 为什么创建这个项目？
+> 在 PC 上体验《塞尔达传说：旷野之息》的完整指南
 
-- 因为我相信您也想在电脑上玩《塞尔达传说：旷野之息》
+---
 
-- 因为网上虽然有很多整合包，但是没有网盘会员下载速度是硬伤
+## 📋 目录
 
-- 因为我希望能学会怎么单独安装某个游戏
+- [为什么创建这个项目？](#为什么创建这个项目)
+- [1. 安装 Cemu - Wii U 模拟器](#1-安装-cemu---wii-u-模拟器)
+  - [1.1 下载安装](#11-下载安装)
+  - [1.2 设置中文](#12-设置中文)
+  - [1.3 初始化配置](#13-初始化配置)
+  - [1.4 连接手柄](#14-连接手柄)
+- [2. 使用 WiiUDownloader 下载游戏](#2-使用-wiiudownloader-下载游戏)
+  - [2.1 下载安装](#21-下载安装)
+  - [2.2 下载游戏](#22-下载游戏)
+- [3. 游戏设置中文](#3-游戏设置中文)
+  - [3.1 安装中文语言包](#31-安装中文语言包)
+  - [3.2 切换为中文](#32-切换为中文)
+- [4. 游戏优化](#4-游戏优化)
+  - [4.1 帧率提升](#41-帧率提升)
+  - [4.2 分辨率优化](#42-分辨率优化)
+  - [4.3 Cemu 优化](#43-cemu-优化)
+
+---
+
+## 为什么创建这个项目？
+
+- ✨ 因为我相信您也想在电脑上玩《塞尔达传说：旷野之息》
+- 🚀 因为网上虽然有很多整合包，但是没有网盘会员下载速度是硬伤
+- 📚 因为我希望能学会怎么单独安装某个游戏
 
 于是我尝试了很多方法，找到了一种比较好的方式分享给大家。
 
-### 1. 安装 Cemu - Wii U 模拟器
+---
 
-[Cemu ](https://github.com/cemu-project/Cemu) 是一个 Wii U 模拟器，能够运行大多数 Wii U 游戏。
+## 1. 安装 Cemu - Wii U 模拟器
 
-#### 1.1 安装
+[Cemu](https://github.com/cemu-project/Cemu) 是一个 Wii U 模拟器，能够运行大多数 Wii U 游戏。
 
-你可以从 [Cemu Release](https://github.com/cemu-project/Cemu/releases) 下载最新的应用程序包并解压到合适的位置，比如 `D:\Games\Cemu`。
+### 1.1 下载安装
 
-启动 Cemu 后看会到初始化弹窗，建议先关闭跳过，先切换成中文之后再来配置。
+1. 从 [Cemu Release](https://github.com/cemu-project/Cemu/releases) 下载最新的应用程序包
+2. 解压到合适的位置，例如：`D:\Games\Cemu`
+3. 启动 Cemu 后会看到初始化弹窗，**建议先关闭跳过**，先切换成中文之后再来配置
 
-#### 1.2 设置中文
+### 1.2 设置中文
 
-依次点击左上角的 **Options** - **General settings** 会看到一个 Language 选项，选择中文后重新启动 Cemu 生效。
+1. 依次点击左上角的 **Options** → **General settings**
+2. 找到 **Language** 选项，选择 **中文**
+3. 重新启动 Cemu 使设置生效
 
-#### 1.3 初始化 Cemu
+### 1.3 初始化配置
 
-- 添加游戏路径
+#### 添加游戏路径
 
-  点击 **选项** - **通用设置** 在游戏路径下方点击 **添加** 按钮，选择一个文件夹如 `D:\Games\WiiUGames`，之后我们会把下载的游戏放在这里。
+1. 点击 **选项** → **通用设置**
+2. 在游戏路径下方点击 **添加** 按钮
+3. 选择一个文件夹，例如：`D:\Games\WiiUGames`
+4. 之后我们会把下载的游戏放在这里
 
-- 安装图形插件
+#### 安装图形插件
 
-  依次点击 **选项** - **图形插件** - **下载最新社区图形插件**，下载成功之后关闭弹窗就行。
+1. 依次点击 **选项** → **图形插件** → **下载最新社区图形插件**
+2. 下载成功之后关闭弹窗即可
 
-#### 1.4 连接手柄
+### 1.4 连接手柄
 
-首先您需要将手柄连接到电脑，当然也可以用键盘，这里以手柄举例。
+> 💡 **提示**：您也可以使用键盘，这里以手柄为例
 
-点击 **选项** - **输入设置** 进行控制器配置，配置如下：
+1. 将手柄连接到电脑
+2. 点击 **选项** → **输入设置** 进行控制器配置
+
+**配置参数：**
 
 ```
-配置文件: 任意配置文件名
+配置文件：任意配置文件名
 
-模拟控制器: Wii U Pro Controller
+模拟控制器：Wii U Pro Controller
 
-控制器:
-	API: SDLController
-	控制器: Nintendo Switch Pro Controller（下拉框选择时可能会空白 1 秒左右）
-
+控制器：
+  API：SDLController
+  控制器：Nintendo Switch Pro Controller
+  （下拉框选择时可能会空白 1 秒左右）
 ```
 
-选择之后可以测试和校准一下。
+3. 选择之后可以测试和校准一下
 
-如果您有设置键盘或者其他问题，请参考网上的相关教程。
+> 📖 如果您有设置键盘或者其他问题，请参考网上的相关教程。
 
-### 2. 使用 WiiUDownloader 下载游戏
+---
+
+## 2. 使用 WiiUDownloader 下载游戏
 
 推荐使用 [WiiUDownloader](https://github.com/Xpl0itU/WiiUDownloader)，它是目前体验最好的 Wii U 游戏下载器，允许您从任天堂服务器下载 Wii U 游戏。
 
-#### 2.1 安装
+### 2.1 下载安装
 
-你可以从 [WiiUDownloader Release](https://github.com/Xpl0itU/WiiUDownloader/releases) 下载最新的应用程序包并解压到合适的位置，比如 `D:\Games\WiiUDownloader\`。
+1. 从 [WiiUDownloader Release](https://github.com/Xpl0itU/WiiUDownloader/releases) 下载最新的应用程序包
+2. 解压到合适的位置，例如：`D:\Games\WiiUDownloader\`
+3. 首次运行会出现初始化设置弹窗，建议直接点击跳过
 
-首次运行 WiiUDownloader 会出现初始化设置弹窗，同样建议你直接点击跳过。
+### 2.2 下载游戏
 
-#### 2.2 下载游戏
+#### 步骤 1：配置下载选项
 
-- 勾选下载界面的底部的 `Decrypt contents` 和 `Decrypt encrypted Contents afert decryption` 选项。
+- ✅ 勾选下载界面底部的：
+  - `Decrypt contents`
+  - `Decrypt encrypted Contents after decryption`
+- ✅ **仅勾选**右下角的 **Japan** 选项
+  - ⚠️ **重要**：游戏的中文语言包是基于 **Japan 版本**的
 
-  仅勾选右下角的 Japan 选项，因为游戏的中文语言包是**基于 Japan 版**本的。
+#### 步骤 2：选择下载内容
 
-- 在搜索栏输入 Zelda 选择这些项目（看不懂可以用截图翻译）：
+在搜索栏输入 **Zelda**，选择以下项目（看不懂可以用截图翻译）：
 
-  Game - Title ID 00050000101c9300 **必须**，这是《塞尔达传说 旷野之息》游戏本体。
+| 类型       | Title ID           | 说明                             | 是否必须    |
+| ---------- | ------------------ | -------------------------------- | ----------- |
+| **Game**   | `00050000101c9300` | 《塞尔达传说：旷野之息》游戏本体 | ✅ **必须** |
+| **Update** | `0005000e101c9300` | 游戏更新（不下载会提醒需要更新） | ✅ **必须** |
+| **DLC**    | `0005000c101c9300` | 游戏 DLC 内容                    | ⭕ 可选     |
 
-  Update - Title ID 0005000e101c9300 **必须**，这是游戏更新，不下载的话进游戏会提醒需要更新。
+> 💡 **提示**：为了节约下载时间，DLC 可以先不选
 
-  DLC - Title ID0005000c101c9300 可选，为了节约下载时间可以先不选。
+#### 步骤 3：开始下载
 
-- 点击 **Download Queue** 选择之前创建的游戏目录，等待下载完成即可。下载完成后打开 Cemu 就可以看到游戏了。
+1. 点击 **Download Queue**
+2. 选择之前创建的游戏目录
+3. 等待下载完成
+4. 下载完成后打开 Cemu 就可以看到游戏了
 
-### 3. 游戏设置中文
+---
 
-#### 3.1 安装中文语言包
+## 3. 游戏设置中文
 
-点击下载 [塞尔达传说：旷野之息简体中文包](https://github.com/Leskur/cemu-zelda-guide/raw/refs/heads/main/%E5%A1%9E%E5%B0%94%E8%BE%BE%E4%BC%A0%E8%AF%B4%EF%BC%9A%E6%97%B7%E9%87%8E%E4%B9%8B%E6%81%AF%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%E5%8C%85.zip)，解压后将 **整个文件夹** 放到 Cemu 的图形插件目录，文件夹名称随意。
+### 3.1 安装中文语言包
 
-Windows 路径：`C:\Users\{你的用户名}\AppData\Roaming\Cemu\graphicPacks`
+1. 点击下载 [塞尔达传说：旷野之息简体中文包](https://github.com/Leskur/cemu-zelda-guide/raw/refs/heads/main/%E5%A1%9E%E5%B0%94%E8%BE%BE%E4%BC%A0%E8%AF%B4%EF%BC%9A%E6%97%B7%E9%87%8E%E4%B9%8B%E6%81%AF%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%E5%8C%85.zip)
+2. 解压后将 **整个文件夹** 放到 Cemu 的图形插件目录（文件夹名称随意）
 
-其他系统自己找一下。
+**图形插件目录路径：**
 
-添加后重启 Cemu 按下面的步骤设置中文。
+- **Windows**：`C:\Users\{你的用户名}\AppData\Roaming\Cemu\graphicPacks`
+- **其他系统**：请自行查找对应路径
 
-#### 3.2 切换为中文
+3. 添加后重启 Cemu
 
-在 Cemu 的游戏列表的 Zelda 上**点击右键** - **编辑图形插件**，找到 The Legend of Zelda: Breath the Wild/Languages/简体中文，您也可以直接搜索 Languages。
+### 3.2 切换为中文
 
-选中然后启动游戏就是中文语言了，Zelda 启动！
+1. 在 Cemu 的游戏列表中找到 **Zelda**
+2. **右键点击** → **编辑图形插件**
+3. 找到 `The Legend of Zelda: Breath the Wild/Languages/简体中文`
+   - 💡 您也可以直接搜索 **Languages**
+4. 勾选后启动游戏
 
-### 4. 游戏优化
+🎮 **恭喜！现在就是中文语言了，Zelda 启动！**
 
-#### 帧率提升
+---
 
-直接运行游戏默认会锁定 30FPS，你可以使用 FPS++ 插件提升 FPS 限制
+## 4. 游戏优化
 
-在 Cemu 的游戏列表的 Zelda 上**点击右键** - **编辑图形插件**，找到 The Legend of Zelda: Breath the Wild/Mods/FPS++，您也可以直接搜索 FPS++。
+### 4.1 帧率提升
 
-勾选 FPS++，您可以根据电脑性能选择对应的 FPS Limit。
+直接运行游戏默认会锁定 **30 FPS**，你可以使用 **FPS++** 插件提升 FPS 限制。
 
-参考链接 [优化《塞尔达传说：旷野之息》#提高帧率](https://cemu.cfw.guide/optimizing-botw.html#increasing-fps)
+**操作步骤：**
 
-#### 分辨率优化
+1. 在 Cemu 的游戏列表中找到 **Zelda**
+2. **右键点击** → **编辑图形插件**
+3. 找到 `The Legend of Zelda: Breath the Wild/Mods/FPS++`
+   - 💡 您也可以直接搜索 **FPS++**
+4. 勾选 **FPS++**
+5. 根据电脑性能选择对应的 **FPS Limit**
 
-参考链接 [优化《塞尔达传说：旷野之息》#图形和增强功能](https://cemu.cfw.guide/optimizing-botw.html#graphics-and-enhancements)
+📖 **参考链接**：[优化《塞尔达传说：旷野之息》- 提高帧率](https://cemu.cfw.guide/optimizing-botw.html#increasing-fps)
 
-#### CEMU 优化
+### 4.2 分辨率优化
 
-参考链接 [优化 Cemu](https://cemu.cfw.guide/optimizing-cemu.html)
+📖 **参考链接**：[优化《塞尔达传说：旷野之息》- 图形和增强功能](https://cemu.cfw.guide/optimizing-botw.html#graphics-and-enhancements)
+
+### 4.3 Cemu 优化
+
+📖 **参考链接**：[优化 Cemu](https://cemu.cfw.guide/optimizing-cemu.html)
+
+---
+
+## 🎉 开始游戏
+
+现在您已经完成了所有设置，可以尽情享受《塞尔达传说：旷野之息》了！
+
+祝您游戏愉快！🎮✨
