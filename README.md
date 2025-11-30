@@ -15,7 +15,13 @@
 
 - 安装
 
-  你可以从 [Cemu Release](https://github.com/cemu-project/Cemu/releases) 下载最新的应用程序包，解压到合适的位置，比如 `D:\Games\Cemu\`。
+  你可以从 [Cemu Release](https://github.com/cemu-project/Cemu/releases) 下载最新的应用程序包并解压到合适的位置，比如 `D:\Games\Cemu\`。
+
+- 使用
+
+  启动 Cemu 后
+
+  
 
 
 
@@ -25,7 +31,7 @@
 
 - 安装
 
-  你可以从 [WiiUDownloader Release](https://github.com/Xpl0itU/WiiUDownloader/releases) 下载最新的应用程序包，然后把它解压到合适的位置，比如 `D:\Games\WiiUDownloader\`。
+  你可以从 [WiiUDownloader Release](https://github.com/Xpl0itU/WiiUDownloader/releases) 下载最新的应用程序包并解压到合适的位置，比如 `D:\Games\WiiUDownloader\`。
 
 1. 运行
 
