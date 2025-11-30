@@ -88,9 +88,11 @@ DLC - Title ID0005000c101c9300 可选。
 
 点击 **Download Queue** 选择之前创建的游戏目录，等待下载完成即可。下载完成后打开 Cemu 就可以看到游戏了。
 
-### 3. 添加中文语言包
+### 3. 游戏设置中文
 
-下载中文语言包，解压后将 **整个文件夹** 放到 Cemu 的图形插件目录，文件夹名称随意。
+#### 3.1 安装中文语言包
+
+点击下载 [塞尔达传说：旷野之息简体中文包](https://github.com/Leskur/cemu-zelda-guide/raw/refs/heads/main/%E5%A1%9E%E5%B0%94%E8%BE%BE%E4%BC%A0%E8%AF%B4%EF%BC%9A%E6%97%B7%E9%87%8E%E4%B9%8B%E6%81%AF%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%E5%8C%85.zip)，解压后将 **整个文件夹** 放到 Cemu 的图形插件目录，文件夹名称随意。
 
 Windows 路径：`C:\Users\{你的用户名}\AppData\Roaming\Cemu\graphicPacks\`
 
@@ -98,3 +100,24 @@ Windows 路径：`C:\Users\{你的用户名}\AppData\Roaming\Cemu\graphicPacks\`
 
 
 
+添加后重启 Cemu 可以在图形插件界面找到。
+
+#### 3.2 切换为中文
+
+在 Cemu 的游戏列表找到 Zelda，点击右键 - 编辑图形插件，展开 Zelda 的选项，你会看到 Languages 下有简体中文选项，勾选它即可。
+
+然后启动游戏就是中文语言了，Zelda 启动！
+
+### 4. 游戏优化
+
+#### 帧率提升
+
+直接运行游戏默认会锁定 30FPS，你可以使用 FPS++ 插件提升 FPS 限制
+
+在 Cemu 的游戏列表找到 Zelda，点击右键 - 编辑图形插件找到 The Legend of Zelda: Breath the Wild/Mods/FPS++（你也可以直接搜索 FPS++）。
+
+勾选 FPS++
+
+#### CEMU 优化
+
+其他 Cemu 优化可以参考 [Optimizing Cemu](https://cemu.cfw.guide/optimizing-cemu.html)
