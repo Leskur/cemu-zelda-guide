@@ -13,17 +13,23 @@
 
 [Cemu ](https://github.com/cemu-project/Cemu) 是一颗 Wii U 模拟器，能够运行大多数Wii U游戏。
 
-- 安装
+1. 安装
 
-  你可以从 [Cemu Release](https://github.com/cemu-project/Cemu/releases) 下载最新的应用程序包并解压到合适的位置，比如 `D:\Games\Cemu\`。
+​	你可以从 [Cemu Release](https://github.com/cemu-project/Cemu/releases) 下载最新的应用程序包并解压到合适的位置，比如 `D:\Games\Cemu`。
 
-- 使用
+​	启动 Cemu 后看会到初始化弹窗，建议直接关闭，先切换成中文之后再来配置。
 
-  启动 Cemu 后
+2. 设置中文
 
-  <img width="929" height="425" alt="image" src="https://github.com/user-attachments/assets/95ff275b-ea14-4d6e-b95e-4c308debfd05" />
-  
-  
+   依次点击左上角的 `Options` - `General settings` 会看到一个 Language 选项，选择中文后重新启动 Cemu 生效。
+
+   
+
+
+
+<img width="929" height="425" alt="image" src="https://github.com/user-attachments/assets/95ff275b-ea14-4d6e-b95e-4c308debfd05" />
+
+
 
 
 
