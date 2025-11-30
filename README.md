@@ -67,19 +67,19 @@
 
 #### 2.2 下载游戏
 
-勾选下载界面的底部的 `Decrypt contents` 和 `Decrypt encrypted Contents afert decryption` 选项。
+- 勾选下载界面的底部的 `Decrypt contents` 和 `Decrypt encrypted Contents afert decryption` 选项。
 
-仅勾选右下角的 Japan 选项，因为游戏的中文语言包是**基于 Japan 版**本的。
+- 仅勾选右下角的 Japan 选项，因为游戏的中文语言包是**基于 Japan 版**本的。
 
-在搜索栏输入 Zelda 选择这些项目（看不懂可以用截图翻译）：
+- 在搜索栏输入 Zelda 选择这些项目（看不懂可以用截图翻译）：
 
-​	Game - Title ID 00050000101c9300 **必须**，这是《塞尔达传说 旷野之息》游戏本体。
+  Game - Title ID 00050000101c9300 **必须**，这是《塞尔达传说 旷野之息》游戏本体。
 
-​	Update - Title ID 0005000e101c9300 **必须**，这是游戏更新，不下载的话进游戏会提醒需要更新。
+  Update - Title ID 0005000e101c9300 **必须**，这是游戏更新，不下载的话进游戏会提醒需要更新。
 
-​	DLC - Title ID0005000c101c9300 可选，为了节约下载时间可以先不选。
+  DLC - Title ID0005000c101c9300 可选，为了节约下载时间可以先不选。
 
-点击 **Download Queue** 选择之前创建的游戏目录，等待下载完成即可。下载完成后打开 Cemu 就可以看到游戏了。
+- 点击 **Download Queue** 选择之前创建的游戏目录，等待下载完成即可。下载完成后打开 Cemu 就可以看到游戏了。
 
 ### 3. 游戏设置中文
 
