@@ -13,27 +13,27 @@
 
 于是我尝试了很多方法，找到了我认为比较好的一种方式分享给大家。
 
-1. ### 安装 Cemu - Wii U 模拟器
+### 1. 安装 Cemu - Wii U 模拟器
 
-1. 安装
+- 安装
 
-   你可以从 [Cemu Release](https://github.com/cemu-project/Cemu/releases) 下载最新的应用程序包，解压到合适的位置。
+  你可以从 [Cemu Release](https://github.com/cemu-project/Cemu/releases) 下载最新的应用程序包，解压到合适的位置。
 
-   比如 `D:\Games\Cemu`
+  比如 `D:\Games\Cemu\`
 
 
 
-### 2. 怎么下载游戏？
+### 2. 使用 WiiUDownloader 下载游戏
 
-推荐使用 [WiiUDownloader](https://github.com/Xpl0itU/WiiUDownloader)，它是我体验下来比较好的 Wii U 游戏下载器。
+推荐使用 [WiiUDownloader](https://github.com/Xpl0itU/WiiUDownloader)，它是我目前体验最好的 Wii U 游戏下载器。允许您从任天堂服务器下载 Wii U 游戏。
 
-1. 安装
+- 安装
 
-   你可以从 [WiiUDownloader Release](https://github.com/Xpl0itU/WiiUDownloader/releases) 下载最新的应用程序包，然后把它解压到合适的位置。
+  你可以从 [WiiUDownloader Release](https://github.com/Xpl0itU/WiiUDownloader/releases) 下载最新的应用程序包，然后把它解压到合适的位置。
 
-   比如 `D:\Games\WiiUDownloader`
+  比如 `D:\Games\WiiUDownloader\`
 
-2. 运行
+1. 运行
 
 ### 3. 添加汉化
 
