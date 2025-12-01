@@ -136,8 +136,8 @@
 
 ### 3.1 安装中文语言包
 
-1. 点击下载 [塞尔达传说：旷野之息简体中文包](https://github.com/Leskur/cemu-zelda-guide/raw/refs/heads/main/%E5%A1%9E%E5%B0%94%E8%BE%BE%E4%BC%A0%E8%AF%B4%EF%BC%9A%E6%97%B7%E9%87%8E%E4%B9%8B%E6%81%AF%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%E5%8C%85.zip)
-2. 解压后将 **整个文件夹** 放到 Cemu 的图形插件目录（文件夹名称随意）
+1. 点击下载 [塞尔达传说旷野之息简体中文包](https://github.com/Leskur/cemu-zelda-guide/raw/refs/heads/main/%E5%A1%9E%E5%B0%94%E8%BE%BE%E4%BC%A0%E8%AF%B4%E6%97%B7%E9%87%8E%E4%B9%8B%E6%81%AF%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%E5%8C%85.zip)
+2. 解压后将 **整个文件夹** 放到 Cemu 的图形插件目录，文件夹名称随意但不要带特殊符号。
 
 **图形插件目录路径：**
 
