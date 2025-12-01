@@ -77,7 +77,7 @@
 ```
 配置文件：任意配置文件名
 
-模拟控制器：Wii U Pro Controller
+模拟控制器：Wii U GamePad
 
 控制器：
   API：SDLController
